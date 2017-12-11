@@ -1,28 +1,10 @@
-
-
-<meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<meta name="description" content="">
-
-<meta name="author" content="">
-
-​
-
-<title>Shop Homepage - Start Bootstrap Template</title>
-
-​
-
-<!-- Bootstrap core CSS -->
-
-<link href="../public/css/bootstrap.min.css" rel="stylesheet">
-
-​
-
-<!-- Custom styles for this template -->
-
-<link href="../public/css/shop-homepage.css" rel="stylesheet">
-
-​
-
+<link rel="stylesheet" href="../public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../public/css/style.css">
+	<link rel="stylesheet" href="../public/css/bootstrap-theme.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../public/js/bxslider/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="../public/js/fancybox/jquery.fancybox.css">
+	<script type="text/javascript" src="../public/js/bxslider/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../public/js/bxslider/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="../public/js/fancybox/jquery.fancybox.js"></script>
+	<meta charset="utf-8">

@@ -22,7 +22,7 @@
       </div>
       <div class="row">
         <label>Anh san pham:</label>
-        <input class="form-control"  type="text" name="image">
+        <input class="form-control"  type="file" name="image">
       </div>
       <div class="row">
         <label>Mo ta san pham:</label>
