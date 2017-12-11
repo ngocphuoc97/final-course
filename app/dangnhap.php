@@ -30,15 +30,10 @@
 		</div>
 		<div id="menu">
   			<ul>
-    			<li><a href="trangchu.php" title="trang chủ">Trang chủ</a></li>
-    			<li><a href="chucnang.php" title="chức năng">Chức Năng</a></li>
-    			<li><a href="#" title="diễn đàn">Diễn đàn</a></li>
+    			<li><a href="index.php" title="trang chủ">Trang chủ</a></li>
+    			<li><a href="tintuc.php" title="tin tức">Tin Tức</a></li>
     			<li><a href="dangnhap.php" title="tài khoản">Tài khoản</a></li>
-    			<li><a href="dangky.php" title="đăng ký">Đăng Ký</a></li>
-    			<li><a href="#" title="tin tức">Tin tức</a></li>
-    			<li><a href="#" title="hỏi đáp">Hỏi đáp</a></li>
-    			<li><a href="lienhe.php" title="liên hệ">Liên hệ</a></li>
-  			</ul>
+    		</ul>
 		</div>
 	</div>
 	<div id="content">
@@ -59,7 +54,7 @@
 	<div class="dnhap">
 		<a href="">Đăng Nhập Tài Khoản</a><br><br>
 		<div id="dangnhap" dir="ltr">
-				<form class="dangnhapform" action="trangchu.html" method="post"  novalidate="novalidate">
+				<form class="dangnhapform" action="admin/login-action.php" method="post"  novalidate="novalidate">
 							<input type="hidden" name="" value="">
 							<input type="hidden" name="" value="">
 							<input type="hidden" name="" value="">
@@ -68,11 +63,11 @@
 			</div>
 			<div class="col-md-12">
 					<a href="">Tài Khoản :</a>
-					<span><input class="HoTen" type="text" name="your-name" value="" size="60" class="" aria-invalid="false" placeholder="Nhập Tên Tài Khoản"></span>
+					<span><input class="HoTen" type="text" name="Email" value="" size="60" class="" aria-invalid="false" placeholder="Nhập Tên Tài Khoản"></span>
 				</div><br><br>
 			<div class="col-md-12">
 					<a href="">Mật Khẩu :</a>
-					<span><input class="TaiKhoan" type="text" name="your-user" value="" size="60" class="" aria-invalid="false" placeholder="Nhập Mật Khẩu"></span>
+					<span><input class="TaiKhoan" type="Password" name="Password" value="" size="60" class="" aria-invalid="false" placeholder="Nhập Mật Khẩu"></span>
 				</div><br><br>
 			<div class="col-md-12">
 					<a href="quenmatkhau.html">Quên Mật Khẩu </a>
